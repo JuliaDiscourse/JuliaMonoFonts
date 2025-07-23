@@ -1,0 +1,40 @@
+@font-face {
+    font-family: JuliaMono;
+    font-weight: 400;
+    font-style: normal;
+    src: url($JuliaMono-Regular) format("woff2");
+    text-rendering: optimizeLegibility;
+}
+@font-face {
+    font-family: JuliaMono;
+    font-weight: 700;
+    font-style: normal;
+    src: url($JuliaMono-Bold) format("woff2");
+    text-rendering: optimizeLegibility;
+}
+@font-face {
+    font-family: JuliaMono;
+    font-weight: 400;
+    font-style: italic;
+    src: url($JuliaMono-RegularItalic) format("woff2");
+    text-rendering: optimizeLegibility;
+}
+@font-face {
+    font-family: JuliaMono;
+    font-weight: 700;
+    font-style: italic;
+    src: url($JuliaMono-BoldItalic) format("woff2");
+    text-rendering: optimizeLegibility;
+}
+
+pre {
+    font-family: JuliaMono, Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace !important;
+    font-variant: none !important;
+}
+code {
+    font-family: JuliaMono, Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace !important;
+    font-variant: none !important;
+}
+p code {
+    font-size: var(--base-font-size, 1em) !important;
+}
